@@ -70,7 +70,7 @@ def download_and_apply():
 		#get picture
 		urllib.request.urlretrieve(url,picture)
 		#change screen saver
-		cmd="gsettings set org.gnome.desktop.screensaver picture-uri file:"+picture
+		cmd="pcmanfm -w "+picture
 		os.system(cmd)
 
 def del_old_pic():
