@@ -6,33 +6,19 @@
 
 > note - this is just a fork of zhangzp9970/GnomeBingLockScreen with tweeks for Raspian
 
-## Have you ever been tired of the same lock screen all the day?
-## Have you ever dreamed of having a Windows Spotlight lock screen on your Raspbian desktop?
-## That's why this project has been started.
-## There already exists a similar and better project https://github.com/neffo/bing-wallpaper-gnome-extension but it's a great practice for me to make my own　using python. So, I insist on making this project better.
+## Have you ever been tired of the same wallpaper screen every day?
+## Have you ever dreamed of having an automated wallpaper swap on your Raspbian desktop?
 
 ## Features
 * change your GNOME lock screen pictures daily with Bing Image of the day
 * the pictures are stored at ~/Pictures/Bing/ by default
 * have a configuration file at ~/.config/Bing/
 * delete pictures more than 7 days (to be improved)
-  
-## Todo
-* add a GUI for configure
-* add proxy support
-* add requirements
-* make a pip package
-* add systemd service file
-  
-## Usage
-clone this repo and add python3 bing_screen_saver.py to start up applications
 
-## Screenshot
-![lock](/img/Screenshot.png)
 ## License
 GNU General Public License v3
 
-Copyright (C) 2018 by 张泽平 <zhang9zp970@gmail.com>
+Original program ~ Copyright (C) 2018 by 张泽平 <zhang9zp970@gmail.com>
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
