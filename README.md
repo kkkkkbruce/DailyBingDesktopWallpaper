@@ -1,13 +1,13 @@
 <h1 align="center">
-  GnomeBingLockScreen
+  DailyBingDesktopWallpaper
 </h1>
 
-[English](https://github.com/zhangzp9970/GnomeBingLockScreen/blob/master/README.md) | [中文](https://github.com/zhangzp9970/GnomeBingLockScreen/blob/master/README-zh-cn.md)
+> Small python script to set the Bing Image of the Day as your Raspbian desktop background 
 
-> Small python script to set the Bing Image of the Day as your GNOME lock screen 
+> note - this is just a fork of zhangzp9970/GnomeBingLockScreen with tweeks for Raspian
 
 ## Have you ever been tired of the same lock screen all the day?
-## Have you ever dreamed of having a Windows Spotlight lock screen on your GNOME desktop?
+## Have you ever dreamed of having a Windows Spotlight lock screen on your Raspbian desktop?
 ## That's why this project has been started.
 ## There already exists a similar and better project https://github.com/neffo/bing-wallpaper-gnome-extension but it's a great practice for me to make my own　using python. So, I insist on making this project better.
 
