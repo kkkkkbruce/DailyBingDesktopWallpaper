@@ -10,7 +10,7 @@
 ## Have you ever dreamed of having an automated wallpaper swap on your Raspbian desktop?
 
 ## Features
-* change your GNOME lock screen pictures daily with Bing Image of the day
+* change your Raspbian desktop screen pictures daily with Bing Image of the day
 * the pictures are stored at ~/Pictures/Bing/ by default
 * have a configuration file at ~/.config/Bing/
 * delete pictures more than 7 days (to be improved)
