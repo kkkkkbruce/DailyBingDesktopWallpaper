@@ -70,7 +70,8 @@ def download_and_apply():
 		#get picture
 		urllib.request.urlretrieve(url,picture)
 		#change screen saver
-		cmd="pcmanfm -w "+picture
+		cmd="export DISPLAY=:0; export XAUTHORITY=/home/pi/.Xauthority; export XDG_RUNTIME_DIR=/run/user/1000; /usr/bin/pcmanfm -w "+picture
+		print(cmd)
 		os.system(cmd)
 
 def del_old_pic():
