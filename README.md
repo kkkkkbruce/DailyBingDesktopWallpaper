@@ -6,7 +6,9 @@
 
 > note - this is just a fork of zhangzp9970/GnomeBingLockScreen with tweeks for Raspian
 
-  Use python3 to run it. Add it to crontab to update each day. Enjoy!
+>  Use python3 to run it. Add it to crontab to update each day. Enjoy!
+
+> Windows script and batch file included for use in Windows - kkkkkbruce
 
 ## Have you ever been tired of the same wallpaper screen every day?
 ## Have you ever dreamed of having an automated wallpaper swap on your Raspbian desktop?
