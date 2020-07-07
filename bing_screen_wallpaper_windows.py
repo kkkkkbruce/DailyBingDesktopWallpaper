@@ -74,8 +74,12 @@ def download_and_apply():
         #get picture
         urllib.request.urlretrieve(url,picture)
         #change screen saver
-        SPI_SETDESKWALLPAPER = 20
-        ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, picture , 0)
+        # Thanks to :https://channel9.msdn.com/coding4fun/articles/Setting-Wallpaper for the following settings
+        SPI_SETDESKWALLPAPER = 20 #(0x14)
+        SPIF_UPDATEINIFILE = 1 #(0x01)
+        SPIF_SENDWININICHANGE = 2 #(0x02)
+        ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, picture , (SPIF_UPDATEINIFILE | SPIF_SENDWININICHANGE))
+
 
 def del_old_pic():
     global isdelete
